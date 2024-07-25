@@ -1,0 +1,42 @@
+* {
+  font-family: "JetBrains Mono"; 
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  padding: 2em 0 2em 0;
+  gap: 2.5em
+}
+
+.id-card {
+  max-width: 40%;
+}
+
+.img-wrapper img {
+  width: 15vw;
+}
+
+/* .img-wrapper img { */
+/*   width: 90%; */
+/* } */
+
+.subc {
+  margin-bottom: 1em;
+  text-align: justify;
+}
+
+.subc h3 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.subc p {
+  margin-left: 1.5rem;
+}
