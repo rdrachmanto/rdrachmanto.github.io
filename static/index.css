@@ -23,10 +23,6 @@ html, body {
   width: 15vw;
 }
 
-/* .img-wrapper img { */
-/*   width: 90%; */
-/* } */
-
 .subc {
   margin-bottom: 1em;
   text-align: justify;
@@ -37,6 +33,22 @@ html, body {
   margin-bottom: 0.5em;
 }
 
-.subc p {
+.subc > div {
   margin-left: 1.5rem;
+}
+
+.subc li {
+  margin-bottom: 0.5rem;
+}
+
+.subc > p {
+  margin-left: 1.5rem;
+}
+
+.subc small {
+  color: #303030;
+}
+
+a {
+  color: #82AAFF;
 }
