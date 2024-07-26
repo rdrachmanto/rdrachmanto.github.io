@@ -5,6 +5,11 @@
 html, body {
   margin: 0;
   padding: 0;
+  font-size: 15px;
+}
+
+small {
+  color: #303030
 }
 
 .container {
@@ -37,7 +42,7 @@ html, body {
   margin-left: 1.5rem;
 }
 
-.subc li {
+.subc-litem {
   margin-bottom: 0.5rem;
 }
 
