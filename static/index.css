@@ -38,16 +38,31 @@ small {
   margin-bottom: 0.5em;
 }
 
-.subc > div {
-  margin-left: 1.5rem;
-}
-
 .subc-litem {
   margin-bottom: 0.5rem;
 }
 
-.subc > p {
+.subc > :is(p, div, table)  {
   margin-left: 1.5rem;
+}
+
+table {
+  border-spacing: 0 0.4rem;
+}
+
+table tr:last-child td {
+  border-spacing: 0 0;
+}
+
+table .row-t {
+  width: 15%;
+  text-align: left;
+  vertical-align: top;
+}
+
+.important-callout {
+  font-weight: bold;
+  color: red;
 }
 
 .subc small {
