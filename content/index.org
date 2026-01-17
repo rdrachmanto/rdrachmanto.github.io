@@ -1,4 +1,17 @@
-* Something New
-Yeaa
+*** About Me
 
-** Name is Raka
+I am a Computer Science Ph.D. student at The University of Georgia, USA, under the supervision of Dr. In Kee Kim. I received my B.S. in Computer Science at Universitas Amikom Yogyakarta, Indonesia, advised by Dr. Arief Setyanto. My research interests include Edge Computing, AI on Edge, and Internet of Things.  
+
+*** Publications
+
+#+ATTR_HTML: :class publications
+- [[https://ieeexplore.ieee.org/document/10646443][Characterizing deep learning model compression with post-training quantization on accelerated edge devices]]
+  - _Rakandhiya D Rachmanto_, Zaki Sukma, Ahmad NL Nabhaan, Arief Setyanto, Ting Jiang, In Kee Kim.
+  - /IEEE EDGE 2024/
+- [[https://ieeexplore.ieee.org/abstract/document/10852314][Knowledge Distillation in Object Detection for Resource-Constrained Edge Computing]]
+  - Arief Setyanto, Theopilus Bayu Sasongko, Muhammad Ainul Fikri, Dhani Ariatmanto, I Made Artha Agastya, _Rakandhiya Daanii Rachmanto_, Affan Ardana, In Kee Kim
+  - /IEEE Access 2025/
+
+*** Teaching Assistant
+- CSCI 4730/6730 (Operating Systems) /Fall 2025/
+- CSCI 4050 (Software Engineering) /Fall 2025/

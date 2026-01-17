@@ -1,0 +1,71 @@
+/* iosevka-latin-400-normal */
+/* @font-face { */
+/*   font-family: 'Iosevka'; */
+/*   font-style: normal; */
+/*   font-display: swap; */
+/*   font-weight: 400; */
+/*   src: url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-400-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-400-normal.woff) format('woff'); */
+/* } */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --content-max: 70ch;
+    --gutter: 1rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter";
+}
+
+body {
+    max-width: var(--content-max);
+    padding-inline: var(--gutter);
+    margin: 0 auto;
+}
+
+header {
+    padding: 0.8rem;
+    text-align: center;
+
+}
+
+.outline-2 {
+    margin-bottom: 1.2rem;
+}
+
+h2 {
+    margin-bottom: 0.8rem;
+}
+
+hr {
+    margin-top: 1.2rem;
+    color: #fefefe;
+}
+
+footer {
+    padding: 0.8rem;
+    font-size: 0.85rem;
+    text-align: center;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.org-ul {
+    padding-left: 1.2rem;
+}
+
+.publications > li {
+    margin-bottom: 0.5rem;
+}
+
+.publications > li > ul {
+    padding-left: 0;
+    list-style: none;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
