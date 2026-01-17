@@ -1,0 +1,3 @@
+** Personal Website and Blog
+
+This repository is meant to store source file and generated static HTML for my personal website and (hopefully!) blog. available at [[https://rdrachmanto.github.io]]
