@@ -2,6 +2,17 @@
 
 I am a Computer Science Ph.D. student at The University of Georgia, USA, under the supervision of Dr. In Kee Kim. I received my B.S. in Computer Science at Universitas Amikom Yogyakarta, Indonesia, advised by Dr. Arief Setyanto. My research interests include Edge Computing, AI on Edge, and Internet of Things.  
 
+You can find my CV [[file:../public/static/resume.pdf][here]]
+
+*Office*\\
+Boyd Graduate Studies Research Center\\
+Room 819\\
+200 D.W. Brooks Drive\\
+Athens, GA, USA
+
+*Contact*\\
+rakandhiya [dot] rachmanto [at] uga [dot] edu
+
 *** Publications
 
 #+ATTR_HTML: :class publications
@@ -15,3 +26,7 @@ I am a Computer Science Ph.D. student at The University of Georgia, USA, under t
 *** Teaching Assistant
 - CSCI 4730/6730 (Operating Systems) /Fall 2025/
 - CSCI 4050 (Software Engineering) /Fall 2025/
+
+*** Other Interests
+- Homelab: I enjoy building and maintaining my own stack of IT infrastructure, on NixOS, btw
+- Lisp: I like trying out Lisp dialects (currently Clojure and Janet) because of how unique and elegant they are.
