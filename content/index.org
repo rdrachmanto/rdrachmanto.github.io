@@ -8,7 +8,8 @@ You can find my CV [[file:../public/static/resume.pdf][here]]
 Boyd Graduate Studies Research Center\\
 Room 819\\
 200 D.W. Brooks Drive\\
-Athens, GA, USA
+Athens, GA, USA\\
+30602
 
 *Contact*\\
 rakandhiya [dot] rachmanto [at] uga [dot] edu
