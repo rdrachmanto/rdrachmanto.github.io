@@ -12,12 +12,15 @@
 :root {
     --content-max: 70ch;
     --gutter: 1rem;
+    color-scheme: light dark;
 }
 
 * {
     margin: 0;
     padding: 0;
     font-family: "Inter";
+    color: light-dark(black, white);
+    background-color: light-dark(white, #1e211f);
 }
 
 body {
