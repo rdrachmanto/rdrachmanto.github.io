@@ -17,17 +17,27 @@ rakandhiya [dot] rachmanto [at] uga [dot] edu
 *** Publications
 
 #+ATTR_HTML: :class publications
-- [[https://ieeexplore.ieee.org/document/10646443][Characterizing deep learning model compression with post-training quantization on accelerated edge devices]]
-  - _Rakandhiya D Rachmanto_, Zaki Sukma, Ahmad NL Nabhaan, Arief Setyanto, Ting Jiang, In Kee Kim.
-  - /IEEE EDGE 2024/
+- [[https://arxiv.org/abs/2603.14577][Covariance-Guided Resource Adaptive Learning for Efficient Edge Inference]]
+  - Ahmad N. L. Nabhaan, Zaki Sukma, _Rakandhiya D. Rachmanto_, Muhammad Husni Santriaji, Byungjin Cho, Arief Setyanto, In Kee Kim
+  - /IEEE ICFEC 2026/
+- [[https://ieeexplore.ieee.org/abstract/document/11120486][Convergo: Multi-SLO-Aware Scheduling for Heterogeneous AI Accelerators on Edge Devices]]
+  - Ting Jiang, Jianwei Hao, Sushruth Harsha, _Rakandhiya D Rachmanto_, Arief Setyanto, Lakshmish Ramaswamy, In Kee Kim
+  - /IEEE EDGE 2025/
 - [[https://ieeexplore.ieee.org/abstract/document/10852314][Knowledge Distillation in Object Detection for Resource-Constrained Edge Computing]]
   - Arief Setyanto, Theopilus Bayu Sasongko, Muhammad Ainul Fikri, Dhani Ariatmanto, I Made Artha Agastya, _Rakandhiya Daanii Rachmanto_, Affan Ardana, In Kee Kim
   - /IEEE Access 2025/
+- [[https://ieeexplore.ieee.org/document/10646443][Characterizing deep learning model compression with post-training quantization on accelerated edge devices]]
+  - _Rakandhiya D Rachmanto_, Zaki Sukma, Ahmad NL Nabhaan, Arief Setyanto, Ting Jiang, In Kee Kim.
+  - /IEEE EDGE 2024/ *Best Paper Award*
 
 *** Teaching Assistant
-- CSCI 4730/6730 (Operating Systems) /Fall 2025/
+- CSCI 4730/6730 (Operating Systems) /Fall 2025, Spring 2026/
 - CSCI 4050 (Software Engineering) /Fall 2025/
 
+*** Awards and Nominations
+- Outstanding TA by UGA's School of Computing, /Fall 2025/
+- Undergraduate Research Fellowship of LPDP x DIKTI /2023 - 2024/
+
 *** Other Interests
-- Homelab: I enjoy building and maintaining my own stack of IT infrastructure, on NixOS, btw
+- Homelab: I enjoy building and maintaining my own stack of IT infrastructure, especially with declarative systems like NixOS and GNU Guix
 - Lisp: I like trying out Lisp dialects (currently Clojure and Janet) because of how unique and elegant they are.
