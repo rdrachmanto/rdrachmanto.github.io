@@ -1,0 +1,24 @@
+#+OPTIONS: title:nil
+#+TITLE: RA2 Tweaks for Modern System - Notes -- Rakandhiya Rachmanto
+
+*** Playing Red Alert 2
+
+Red Alert 2 and its expansion, Red Alert 2: Yuri's Revenge is a core childhood memory of mine, and when I discovered I can play them from Steam and on linux via its compatibility layer, I was so excited to experience it all over again. So there I was expecting things to be smooth-sailing, but nope. For some reason, on my daily driver laptop (P14s Gen 5) the game is much slower than on my old one (now 8-years old ASUS X550VX).
+
+Turns out, we need this tweak to be able to play it smoothly and to change its resolution:
+
+**** Steps to take:
+
+1. Download the cnc-ddraw.zip from [[https://github.com/FunkyFr3sh/cnc-ddraw/releases][CnCNet]]'s GitHub page
+   
+2. Extract the ddraw.dll to your RA2 folder, you can find this folder in ~Manage > Browse local game files~ option
+   
+3. Launch RA2.exe or RA2MD.exe and it should take care of the rest
+   
+4. If not, you may need to make adjustments on the game properties on steam (the gear icon)
+   
+5. Adjust the launch option
+
+   #+BEGIN_SRC
+   WINEDLLOVERRIDES="ddraw.dll=n,b" %command%
+   #+END_SRC

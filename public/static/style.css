@@ -67,7 +67,7 @@ footer {
 }
 
 .org-ul {
-    padding-left: 1.2rem;
+    padding-left: 2rem;
 }
 
 .small-context {
@@ -85,11 +85,13 @@ footer {
     font-weight: 300;
 }
 
-.publications > li > ol {
-    padding-left: 0;
-    list-style: none;
-    font-size: 0.9rem;
-    font-weight: 300;
+.org-ol {
+    padding-left: 2rem;
+}
+
+.org-ol > li {
+    padding-left: 0.5rem;
+    margin-top: 0.5rem;
 }
 
 .publications a {

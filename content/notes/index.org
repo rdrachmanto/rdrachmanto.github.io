@@ -14,3 +14,8 @@ Collection of notes, can be games, declarative systems, programming-related, or 
 
 #+ATTR_HTML: :class publications
 - [[./linux-bios-update.org][Linux Bios Update]]
+
+**** Games
+
+#+ATTR_HTML: :class publications
+- [[./games-ra-tweaks.org][Red Alert 2 and RA2: Yuri's Revenge on Modern Systems]]

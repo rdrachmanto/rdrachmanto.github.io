@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>RA2 Tweaks for Modern System - Notes &#x2013; Rakandhiya Rachmanto</title>
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" href="/static/style.css"
+</head>
+<body>
+<div id="preamble" class="status">
+<header>
+  <h2>Rakandhiya Rachmanto</h2>
+</header>
+</div>
+<div id="content" class="content">
+<div id="outline-container-orgfcaae5b" class="outline-2">
+<h2 id="orgfcaae5b">Playing Red Alert 2</h2>
+<div class="outline-text-2" id="text-orgfcaae5b">
+<p>
+Red Alert 2 and its expansion, Red Alert 2: Yuri's Revenge is a core childhood memory of mine, and when I discovered I can play them from Steam and on linux via its compatibility layer, I was so excited to experience it all over again. So there I was expecting things to be smooth-sailing, but nope. For some reason, on my daily driver laptop (P14s Gen 5) the game is much slower than on my old one (now 8-years old ASUS X550VX).
+</p>
+
+<p>
+Turns out, we need this tweak to be able to play it smoothly and to change its resolution:
+</p>
+</div>
+<div id="outline-container-orgea898ee" class="outline-3">
+<h3 id="orgea898ee">Steps to take:</h3>
+<div class="outline-text-3" id="text-orgea898ee">
+<ol class="org-ol">
+<li>Download the cnc-ddraw.zip from <a href="https://github.com/FunkyFr3sh/cnc-ddraw/releases">CnCNet</a>'s GitHub page</li>
+
+<li>Extract the ddraw.dll to your RA2 folder, you can find this folder in <code>Manage &gt; Browse local game files</code> option</li>
+
+<li>Launch RA2.exe or RA2MD.exe and it should take care of the rest</li>
+
+<li>If not, you may need to make adjustments on the game properties on steam (the gear icon)</li>
+
+<li><p>
+Adjust the launch option
+</p>
+
+<div class="org-src-container">
+<pre class="src src-nil">WINEDLLOVERRIDES="ddraw.dll=n,b" %command%
+</pre>
+</div></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<hr/>
+
+<footer>
+  <span>Last updated: 2026-05-25 Mon 09:08. Made with Emacs and Org Mode</span>
+</footer>
+</div>
+</body>
+</html>
