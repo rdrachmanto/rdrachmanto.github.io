@@ -1,0 +1,12 @@
+#+OPTIONS: title:nil
+#+TITLE: Linux Bios Update - Notes -- Rakandhiya Rachmanto
+
+*** Updating Bios In Linux
+
+#+ATTR_HTML: :class publications
+1. Make sure ~fwupdmgr~ is available, typically by installing ~fwupd~ and ~fwupd-efi~
+2. Run ~fwupdmgr refresh && fwupdmgr get-updates~
+3. Run ~sudo fwupdmgr update~
+4. Answer some y/N questions
+5. Yes to reboot now
+6. Make some tea and wait

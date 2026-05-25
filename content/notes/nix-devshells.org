@@ -1,0 +1,30 @@
+#+OPTIONS: title:nil
+#+TITLE: Nix Devshell - Notes -- Rakandhiya Rachmanto
+
+*** Default Nix Devshell
+
+Use below snippet to edit ~flake.nix~ after doing ~nix flake init~
+
+#+BEGIN_SRC nix
+{
+  description = "A very basic flake";
+
+  inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
+  };
+
+  outputs = { self, nixpkgs }: let
+    system = "x86_64-linux";
+    pkgs = import nixpkgs { inherit system; };
+  in {
+    devShells.${system}.default = pkgs.mkShell {
+        buildInputs = with pkgs; [];
+
+        # Runs automatically upon entering the shell
+        shellHook = ''
+          echo "Welcome to dev shell!"
+        '';
+      };
+  };
+}
+#+END_SRC

@@ -1,0 +1,16 @@
+#+OPTIONS: title:nil
+#+TITLE: Notes -- Rakandhiya Rachmanto
+
+*** Notes
+
+Collection of notes, can be games, declarative systems, programming-related, or recipes!
+
+**** Declarative Systems
+
+#+ATTR_HTML: :class publications
+- [[./nix-devshells.org][Nix Devshell]]
+  
+**** Linux System
+
+#+ATTR_HTML: :class publications
+- [[./linux-bios-update.org][Linux Bios Update]]

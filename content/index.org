@@ -62,4 +62,4 @@ rakandhiya [dot] rachmanto [at] uga [dot] edu
 
 *** Elsewhere
 
-Find my thoughts in my blog, or my notes
+Find my thoughts in my [[./posts/index.org][posts]], or my [[./notes/index.org][notes]].

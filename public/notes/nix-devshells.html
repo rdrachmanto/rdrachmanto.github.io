@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Nix Devshell - Notes &#x2013; Rakandhiya Rachmanto</title>
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" href="/static/style.css"
+</head>
+<body>
+<div id="preamble" class="status">
+<header>
+  <h2>Rakandhiya Rachmanto</h2>
+</header>
+</div>
+<div id="content" class="content">
+<div id="outline-container-orgee8724b" class="outline-2">
+<h2 id="orgee8724b">Default Nix Devshell</h2>
+<div class="outline-text-2" id="text-orgee8724b">
+<p>
+Use below snippet to edit <code>flake.nix</code> after doing <code>nix flake init</code>
+</p>
+
+<div class="org-src-container">
+<pre class="src src-nix">{
+  description = "A very basic flake";
+
+  inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
+  };
+
+  outputs = { self, nixpkgs }: let
+    system = "x86_64-linux";
+    pkgs = import nixpkgs { inherit system; };
+  in {
+    devShells.${system}.default = pkgs.mkShell {
+        buildInputs = with pkgs; [];
+
+        # Runs automatically upon entering the shell
+        shellHook = ''
+          echo "Welcome to dev shell!"
+        '';
+      };
+  };
+}
+</pre>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<hr/>
+
+<footer>
+  <span>Last updated: 2026-05-25 Mon 00:55. Made with Emacs and Org Mode</span>
+</footer>
+</div>
+</body>
+</html>

@@ -1,4 +1,8 @@
+(add-to-list 'load-path (expand-file-name "lisp" default-directory))
+
+
 (require 'ox-publish)
+(require 'htmlize)
 
 (defun read-template (filename)
   "Read template contents from filename"
@@ -11,8 +15,8 @@
 
 (setq org-publish-project-alist
       (list
-       (list "my-org-site"
-             :recursive t
+       (list "site-main"
+             :recursive nil
              :base-directory "./content"
              :publishing-directory "./public"
              :with-author nil
@@ -22,15 +26,42 @@
              :time-stamp-file nil
              :publishing-function 'org-html-publish-to-html
              :html-preamble my-custom-header
-             :html-postamble my-custom-footer)))
+             :html-postamble my-custom-footer)
+       (list "site-notes"
+             :recursive t
+             :base-directory "./content/notes"
+             :publishing-directory "./public/notes"
+             :with-author nil
+             :with-toc nil
+             :section-numbers nil
+             :time-stamp-file nil
+             :publishing-function 'org-html-publish-to-html
+             :html-preamble my-custom-header
+             :html-postamble my-custom-footer)
+       (list "site-posts"
+             :recursive t
+             :base-directory "./content/posts"
+             :publishing-directory "./public/posts"
+             :with-author nil
+             :with-toc nil
+             :section-numbers nil
+             :time-stamp-file nil
+             :publishing-function 'org-html-publish-to-html
+             :html-preamble my-custom-header
+             :html-postamble my-custom-footer
+             :auto-sitemap t
+             :sitemap-title "Blog"
+             :sitemap-filename "index.org"
+             :sitemap-sort-files 'anti-chronologically)))
 
 (setq org-html-validation-link nil)
 
 (setq org-html-validation-link nil            ;; Don't show validation link
       org-html-head-include-scripts nil       ;; Use our own scripts
       org-html-head-include-default-style nil ;; Use our own styles
-      org-html-head "<link rel=\"stylesheet\" href=\"./static/style.css\"")
+      org-html-head "<link rel=\"stylesheet\" href=\"/static/style.css\"")
       ;; org-html-head "<link rel=\"stylesheet\" href=\"https://cdn.simplecss.org/simple.min.css\" />")
+
 
 (setq org-export-with-sub-superscripts '{})
 
