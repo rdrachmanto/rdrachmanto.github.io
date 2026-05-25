@@ -10,7 +10,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 :root {
-    --content-max: 70ch;
+    --content-max: 90ch;
     --gutter: 1rem;
     color-scheme: light dark;
 }
@@ -20,13 +20,14 @@
     padding: 0;
     font-family: "Inter";
     color: light-dark(black, white);
-    background-color: light-dark(white, #1e211f);
+    background-color: light-dark(white, #181818);
 }
 
 body {
     max-width: var(--content-max);
     padding-inline: var(--gutter);
     margin: 0 auto;
+    line-height: 1.55;
 }
 
 header {
@@ -44,12 +45,15 @@ p {
 }
 
 h2 {
+    margin-top: 2.2rem;
     margin-bottom: 0.8rem;
+    
 }
 
 hr {
-    margin-top: 1.2rem;
-    color: #fefefe;
+    margin-top: 2.5rem;
+    margin-bottom: 0.8rem;
+    color: light-dark(#fefefe, #40303c);
 }
 
 footer {
@@ -66,6 +70,10 @@ footer {
     padding-left: 1.2rem;
 }
 
+.small-context {
+    font-size: 0.8rem;
+}
+
 .publications > li {
     margin-bottom: 0.5rem;
 }
@@ -75,4 +83,25 @@ footer {
     list-style: none;
     font-size: 0.9rem;
     font-weight: 300;
+}
+
+.publications a {
+    font-weight: 500;
+    text-decoration: none;
+    border-bottom: 1px solid #666;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid #666;
+}
+
+a:hover {
+  border-bottom-color: currentColor;
+}
+
+.highlighted {
+    color: light-dark(red, #fa7584);
+    font-weight: 600;
 }

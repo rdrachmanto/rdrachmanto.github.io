@@ -4,6 +4,7 @@ I am a Computer Science Ph.D. student at The University of Georgia, USA, under t
 
 You can find my CV [[file:../public/static/resume.pdf][here]]
 
+#+ATTR_HTML: :class small-context
 *Office*\\
 Boyd Graduate Studies Research Center\\
 Room 819\\
@@ -11,6 +12,7 @@ Room 819\\
 Athens, GA, USA\\
 30602
 
+#+ATTR_HTML: :class small-context
 *Contact*\\
 rakandhiya [dot] rachmanto [at] uga [dot] edu
 
@@ -28,7 +30,7 @@ rakandhiya [dot] rachmanto [at] uga [dot] edu
   - /IEEE Access 2025/
 - [[https://ieeexplore.ieee.org/document/10646443][Characterizing deep learning model compression with post-training quantization on accelerated edge devices]]
   - _Rakandhiya D Rachmanto_, Zaki Sukma, Ahmad NL Nabhaan, Arief Setyanto, Ting Jiang, In Kee Kim.
-  - /IEEE EDGE 2024/ *Best Paper Award*
+  - /IEEE EDGE 2024/ @@html:<span class="highlighted">Best Paper Award</span>@@
 
 *** Teaching Assistant
 - CSCI 4730/6730 (Operating Systems) /Fall 2025, Spring 2026/
