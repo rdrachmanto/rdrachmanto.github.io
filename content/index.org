@@ -1,3 +1,7 @@
+#+OPTIONS: title:nil
+#+TITLE: Personal Page -- Rakandhiya Rachmanto
+
+
 *** About Me
 
 I am a Computer Science Ph.D. student at The University of Georgia, USA, advised by Dr. In Kee Kim. My research interests are Edge Computing, AI on Edge, and Internet of Things
