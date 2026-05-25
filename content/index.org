@@ -1,10 +1,9 @@
 #+OPTIONS: title:nil
 #+TITLE: Personal Page -- Rakandhiya Rachmanto
 
-
 *** About Me
 
-I am a Computer Science Ph.D. student at The University of Georgia, USA, advised by Dr. In Kee Kim. My research interests are Edge Computing, AI on Edge, and Internet of Things
+I am a Computer Science Ph.D. student at The University of Georgia, USA, advised by Dr. In Kee Kim. My research interests are Edge Computing, AI on Edge, and Internet of Things.
 
 I received my B.S. in Computer Science at Universitas Amikom Yogyakarta, Indonesia, advised by Dr. Arief Setyanto.
 
@@ -22,7 +21,20 @@ Athens, GA, USA\\
 *Contact*\\
 rakandhiya [dot] rachmanto [at] uga [dot] edu
 
-*** Publications
+
+*** Experience
+
+#+ATTR_HTML: :class publications
+- Graduate Research Assistant
+  - On-device Neural Radiance Field (NeRF) on Jetson devices, and resource-aware inference of deep learning models
+- Graduate Teaching Assistant
+  - CSCI 4730/6730 (Operating Systems); CSCI 4050 (Software Engineering)
+- Undergraduate Research Assistant
+  - Evaluated deep learning compression strategies on Jetson devices, using Python, TFLite and TensorRT
+- Freelance Programmer
+  - Developed child stunting analytics website for the government of Gunungkidul Regency, Yogyakarta, Indonesia
+
+*** Selected Publications
 
 #+ATTR_HTML: :class publications
 - [[https://arxiv.org/abs/2603.14577][Covariance-Guided Resource Adaptive Learning for Efficient Edge Inference]]
@@ -38,14 +50,16 @@ rakandhiya [dot] rachmanto [at] uga [dot] edu
   - _Rakandhiya D Rachmanto_, Zaki Sukma, Ahmad NL Nabhaan, Arief Setyanto, Ting Jiang, In Kee Kim.
   - /IEEE EDGE 2024/ @@html:<span class="highlighted">Best Paper Award</span>@@
 
-*** Teaching Assistant
-- CSCI 4730/6730 (Operating Systems) /Fall 2025, Spring 2026/
-- CSCI 4050 (Software Engineering) /Fall 2025/
-
 *** Awards and Nominations
-- Outstanding TA by UGA's School of Computing, /Fall 2025/
+
+- Outstanding TA by UGA's School of Computing, /Spring 2026/
 - Undergraduate Research Fellowship of LPDP x DIKTI /2023 - 2024/
 
 *** Other Interests
+
 - Homelab: I enjoy building and maintaining my own stack of IT infrastructure, especially with declarative systems like NixOS and GNU Guix
 - Lisp: I like trying out Lisp dialects (currently Clojure and Janet) because of how unique and elegant they are.
+
+*** Elsewhere
+
+Find my thoughts in my blog, or my notes
